@@ -24,11 +24,17 @@ public class TP2 {
         
         G1.modifierEmailEtudiant(0, "a@a.com");
         G1.supprimerEtudiant(0);
+    
+    
+    Livre L1 = new Livre ();
+    Livre L2 = new Livre ("Titre" , "auteur" , "2002" , 225);
+    Livre L3 = new Livre ("Titre3" , "auteur3");
+    Livre L4 = new Livre ("Titre4" , "auteur4" , "2022" );
+    
+    System.out.println(L1.toString()) ;
+    System.out.println(L2.toString()) ;
+    System.out.println(L3.toString());
+    System.out.println(L4.toString());
+    
     }
 }
-    
-
-
-
-
-    
