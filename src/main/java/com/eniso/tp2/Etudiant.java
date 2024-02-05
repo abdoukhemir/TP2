@@ -12,10 +12,10 @@ public class Etudiant {
 
     private String nom;
     private String prenom;
-    private String Ninscrit;
+    private int Ninscrit;
     private String email;
 
-    public Etudiant(String nom, String prenom, String Ninscrit, String email) {
+    public Etudiant(String nom, String prenom, int Ninscrit, String email) {
         this.nom = nom;
         this.prenom = prenom;
         this.Ninscrit = Ninscrit;
@@ -39,11 +39,11 @@ public class Etudiant {
         this.prenom = prenom;
     }
 
-    public String getNinscrit() {
+    public int getNinscrit() {
         return Ninscrit;
     }
 
-    public void setNinscrit(String Ninscrit) {
+    public void setNinscrit(int Ninscrit) {
         this.Ninscrit = Ninscrit;
     }
 
@@ -54,4 +54,9 @@ public class Etudiant {
     public void setEmail(String email) {
         this.email = email;
     }
+    public String toString(){
+          return "Nom=" + this.nom + "prenom="+this.prenom + "NumInscript="+this.Ninscrit +"Email="+this.email ;
+         
+       }
 }   
+
