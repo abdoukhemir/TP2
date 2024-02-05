@@ -8,11 +8,6 @@ package com.eniso.tp2;
  *
  * @author ABDOU
  */
-public class TP2 {
-    public static void main(String[]args ){}
+public class SystemeGestionEtudiants {
     
 }
-
-
-
-    
